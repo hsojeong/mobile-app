@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* header */
+#scheheader {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+}
+#scheheader h1 img {
+  width: 150px;
+  height: auto;
+}
+#scheheader h2 {
+  font-size: 30px;
+  padding-right: 100px;
+}
+#scheheader h2 > i {
+  margin-right: 15px;
+}
+#scheheader .hambar {
+  font-size: 30px;
+}
+
+/* section */
+#schesection {
+  background-color: aliceblue;
+  padding: 50px 80px;
+}
+#schesection img {
+  width: 600px; 
+  height: auto;
+}
+#schesection > div {
+  font-size: 14px;
+  text-align: right;
+  margin: 10px 15px 0 0;
+  color: #555;
+}
