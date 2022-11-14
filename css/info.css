@@ -37,23 +37,3 @@
   transform: translateX(200px);
   max-width: 560px;
 }
-
-/* section */
-#schesection {
-  background-color: aliceblue;
-  padding: 50px 0;
-  text-align: center;
-  display: block;
-}
-#schesection.on {
-  display: none;
-}
-#schesection a {
-  max-width: 549px;
-  font-size: 14px;
-  color: #555;
-  display: block;
-  text-align: right;
-  margin-top: 10px;
-  padding-right: 5px;
-}
