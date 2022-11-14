@@ -1,38 +1,59 @@
 @charset "utf-8";
 
 /* header */
-#scheheader {
+.commonheader {
   display: flex;
   align-items: center;
   padding: 12px 0;
 }
-#scheheader h1 img {
+.commonheader.on {
+  display: block;
+  text-align: center;
+  background-color: #fff;
+}
+.commonheader h1 img {
   width: 150px;
   height: auto;
 }
-#scheheader h2 {
+.commonheader.on h1 img {
+  width: 210px;
+  height: auto;
+}
+.commonheader h2 {
   font-size: 30px;
   padding-right: 100px;
+  display: block;
 }
-#scheheader h2 > i {
+.commonheader.on h2 {
+  display: none;
+}
+.commonheader h2 > i {
   margin-right: 15px;
 }
-#scheheader .hambar {
+.commonheader .opennav {
   font-size: 30px;
+}
+.commonheader.on .opennav > i {
+  transform: translateX(250px);
+  max-width: 560px;
 }
 
 /* section */
 #schesection {
   background-color: aliceblue;
-  padding: 50px 80px;
+  padding: 50px 0;
+  text-align: center;
+  display: block;
 }
-#schesection img {
-  width: 600px; 
-  height: auto;
+#schesection.on {
+  display: none;
 }
-#schesection > div {
+#schesection a {
+  max-width: 549px;
   font-size: 14px;
-  text-align: right;
-  margin: 10px 15px 0 0;
   color: #555;
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  padding-right: 5px;
 }

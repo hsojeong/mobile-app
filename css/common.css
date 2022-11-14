@@ -12,6 +12,11 @@
 #fmenu {
   display: flex;
 }
+#fmenu.on {
+  display: block;
+  background-color: #fff;
+  padding: 100px 0;
+}
 #fmenu > a {
   flex: 1;
   text-align: center;
@@ -25,12 +30,39 @@
 #fmenu > a > i {
   font-size: 27px;
   padding: 15px 0 7px;
+  display: block;
+}
+#fmenu.on > a > i {
+  display: none;
 }
 #fmenu > a:nth-child(3) > i {
   color: #999;
+}
+#fmenu.on > a:nth-child(3) {
+  display: block;
+}
+#fmenu.on > a:nth-child(3) {
+  display: none;
+}
+#fmenu > a:nth-child(4) .info {
+  display: block;
+}
+#fmenu.on > a:nth-child(4) .info {
+  display: none;
+}
+#fmenu > a:nth-child(4) .infoon {
+  display: none;
+}
+#fmenu.on > a:nth-child(4) .infoon {
+  display: block;
 }
 #fmenu > a > p {
   font-size: 13px;
   font-weight: bold;
   padding-bottom: 15px;
+  margin-bottom: 0;
+}
+#fmenu.on > a > p {
+  font-size: 25px;
+  margin-bottom: 15px;
 }

@@ -18,17 +18,22 @@
 </head>
 <body>
 
-    <header id="scheheader">
+    <header class="commonheader">
         <h1>
           <a href="./index.html"><img src="./images/logo2.png" alt="아리로고이미지"></a>
         </h1>
         <h2><i class="fa-regular fa-calendar"></i>schedule</h2>
-        <div class="hambar"><i class="fa-solid fa-bars"></i></div>
+        <div class="opennav">
+            <span class="blind">네이게이션 열고 닫기</span>
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
 
     <section id="schesection"> 
-      <img src="./images/calendar.png" alt="달력">
-      <div><a href="#"><i class="fa-solid fa-gear"></i> 설정하기</a></div>
+      <div>
+          <img src="./images/calendar.png" alt="달력"></div>
+          <a href="#"><i class="fa-solid fa-gear"></i> 설정하기</a> 
+      </div>
     </section>
 
     <footer id="footer">
@@ -47,7 +52,8 @@
             </a>
             <a href="#">
                 <i class="fa-solid fa-circle-info"></i>
-                <p>info</p>
+                <p class="info">info</p>
+                <p class="infoon">information</p>
             </a>
             <a href="#">
                 <i class="fa-solid fa-person"></i>
@@ -56,5 +62,6 @@
         </div>
     </footer>
 
+    <script src="./js/sche.js"></script>
 </body>
 </html>
