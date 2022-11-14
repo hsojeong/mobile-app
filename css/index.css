@@ -9,14 +9,18 @@ font-family: 'Teko', sans-serif; */
 }
 
 /* header */
+#header {
+  text-align: center;
+}
 #header h1 {
   font-size: 13px;
-  margin:15px 70px 15px 0;
-  text-align: center;
   color: #555;
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 70px 12px 0;
 }
 #header h1 img {
-  width: 230px;
+  width: 210px;
   height: auto;
 }
 
@@ -38,7 +42,7 @@ font-family: 'Teko', sans-serif; */
   background: url(../images/bg4.jpg) no-repeat;
   background-size: cover;
   background-position: right center;
-  height: 720px;
+  height: 600px;
 }
 .article2 .bg p {
   color: #fff;
@@ -56,6 +60,7 @@ font-family: 'Teko', sans-serif; */
   text-align: center;
   color: #333;
   border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 #fmenu > a:first-child {
   border-left: 1px solid #eee;
