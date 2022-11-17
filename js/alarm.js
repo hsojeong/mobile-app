@@ -11,3 +11,7 @@ $('.commonheader .opennav').on('click', function(){
   }
   $('#footer #fmenu').toggleClass('on')
 })
+
+$('.toggleSwitch').on('click',function(){
+  $(this).toggleClass('active')
+})

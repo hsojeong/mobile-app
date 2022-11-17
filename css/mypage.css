@@ -37,3 +37,65 @@
   transform: translateX(180px);
   max-width: 560px;
 }
+
+/* section */
+#mypagesection {
+  background-color: aliceblue;
+  padding: 100px 0;
+  text-align: center;
+}
+#mypagesection.on {
+  display: none;
+}
+#mypagesection > div {
+  max-width: 400px;
+}
+#mypagesection h3 {
+  font-size: 30px;
+  color: #486fbc;
+  margin-bottom: 30px;
+}
+#mypagesection #id , #mypagesection #pw {
+  width: 80%;
+  border: 1px solid #486fbc;
+  padding: 10px 5px;
+  outline: none ;
+  border-radius: 2px;
+} 
+#mypagesection #id {
+  border-bottom: none;
+}
+#mypagesection #id:focus , #mypagesection #pw:focus {
+  background: rgb(229, 234, 238);
+}
+#mypagesection label {
+  font-size: 13px;
+  color: #555;
+}
+#mypagesection form p:nth-child(3) {
+  padding: 10px 0 0 50px;
+  text-align: left;
+}
+#mypagesection form button {
+  width: 80%;
+  padding: 9px 5px;
+  background: #486fbc;
+  color: #fff;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 18px;
+}
+#mypagesection form button:hover {
+  background: navy;
+}
+#mypagesection > div a {
+  display: block;
+  text-align: right;
+  font-size: 13px;
+  font-weight: bold;
+  padding-right: 50px;
+}
+#mypagesection > div a:hover {
+  color: #486fbc
+}

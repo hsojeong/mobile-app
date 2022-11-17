@@ -37,3 +37,32 @@
   transform: translateX(180px);
   max-width: 560px;
 }
+
+/* section */
+#infosection {
+  background-color: aliceblue;
+  padding: 50px 0;
+}
+#infosection.on {
+  display: none;
+}
+#infosection article {
+  max-width: 600px;
+}
+#infosection h3 {
+  margin: 15px ;
+  font-size: 20px;
+}
+#infosection .box {
+  width: 580px;
+  height: 200px;
+  border: 1.5px solid #555;
+  border-radius: 3px;
+}
+#infosection a{
+  display: block;
+  text-align: end;
+  margin: 15px;
+  font-size: 14px;
+  color: #555;
+}

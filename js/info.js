@@ -1,6 +1,6 @@
 $('.commonheader .opennav').on('click', function(){
   $('.commonheader').toggleClass('on')
-  $('#mypagesection').toggleClass('on')
+  $('#infosection').toggleClass('on')
   $('#nav').toggleClass('on')
   if ($(this).find('i').hasClass('fa-bars')) {
       $(this).find('i').removeClass('fa-bars').addClass('fa-xmark')

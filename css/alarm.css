@@ -37,3 +37,119 @@
   transform: translateX(180px);
   max-width: 560px;
 }
+
+/* section */
+#alarmsection {
+  background-color: aliceblue;
+  padding: 80px 0;
+}
+#alarmsection.on {
+  display: none;
+}
+/* toggle*/
+.toggleSwitch {
+  width: 2em;
+  height: 1.1rem;
+  display: block;
+  position: relative;
+  border-radius: 2rem;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #999;
+}
+.toggleSwitch .toggleButton {
+  width: 0.9rem;
+  height: 0.85rem;
+  position: absolute;
+  top: 50%;
+  left: .1rem;
+  transform: translateY(-48%);
+  border-radius: 50%;
+  background: #999;
+}
+.toggleSwitch.active {
+  background: #999;
+}
+.toggleSwitch.active .toggleButton {
+  left: calc(100% - 1rem);
+  background: #fff;
+}
+.toggleSwitch, .toggleButton {
+  transition: all 0.2s ease-in;
+}
+
+/* article3 */
+.article3 {
+  margin-bottom: 60px;
+  max-width: 500px;
+}
+.article3 > div {
+  max-width: 500px;
+  display: flex;
+  background: #ddd;
+  margin-bottom: 10px;
+  padding: 25px 0;
+  align-items: center;
+  font-size: 18px;
+  box-shadow: 1px 1px 1px #eee;
+}
+.article3 > div > div {
+  display: flex;
+}
+.article3 > div .time {
+  font-weight: bold;
+}
+.article3 > div .time span {
+  margin-right: 10px;
+}
+.article3 > div .ten {
+  font-size: 11px;
+}
+.article3 > div:nth-child(2) .ten {
+  padding-right: 7px;
+}
+.article3 > div:nth-child(2) > div {
+  padding-right: 4px;
+}
+.article3 input {
+  margin-right: 5px;
+}
+.article3 > a {
+  display: block;
+  text-align: end;
+  font-size: 14px;
+  color: #555;
+  padding: 10px 0 0 0 ;
+} 
+
+/* article4 */
+.article4 {
+  max-width: 500px;
+}
+.article4 > p {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 40px 8px;
+} 
+.article4 .week {
+  display: flex;
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.article4 .check {
+  display: flex;
+}
+.article4 .check > div {
+  border: 1.5px solid #555;
+  border-left: none;
+  width: 14.28%;
+  height: 50px;
+  text-align: center;
+}
+.article4 .check > div:first-child {
+  border-left: 1.5px solid #555;
+}
+.article4 .check > div img {
+  width: 50px;
+}
